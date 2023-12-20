@@ -1,0 +1,22 @@
+From eb9fd9a2afe01f7313990ed06512a22e474146d4 Mon Sep 17 00:00:00 2001
+From: Ernesto Castellotti <ernesto@castellotti.net>
+Date: Wed, 20 Dec 2023 18:11:55 +0100
+Subject: [PATCH] Add Zyxel LTE7490-M904
+
+Signed-off-by: Ernesto Castellotti <ernesto@castellotti.net>
+---
+ src/zytrx.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/src/zytrx.c b/src/zytrx.c
+index dda75cd..c89384f 100644
+--- a/src/zytrx.c
++++ b/src/zytrx.c
+@@ -94,6 +94,7 @@ static struct board_t {
+ 	{ "MT7621A", "NR7101", 0x07010001 },
+ 	{ "MT7621A", "LTE3301-PLUS", 0x03030001  },
+ 	{ "MT7621A", "LTE5398-M904", 0x05030908 },
++	{ "MT7621A", "LTE7490-M904", 0x07040900 },
+ 	{}
+ };
+ 
